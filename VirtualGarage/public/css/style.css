@@ -160,28 +160,15 @@ input[type='search'] {
   flex-basis: 600px;
 }
 
-/* Gigs */
+
 .car {
   background: var(--bg-color);
-  color: #black;
+  color: black;
   padding: 1rem;
   margin-bottom: 1rem;
   box-shadow: var(--box-shadow);
 }
 
-.gig ul {
-  list-style: none;
-  display: flex;
-}
-
-.gig li {
-  margin-right: 0.5rem;
-  padding: 0.6rem;
-}
-
-.gig .tech span {
-  color: var(--primary-color);
-}
 
 /* Form */
 .form-wrap {
@@ -254,11 +241,7 @@ label {
     flex-direction: column;
   }
 
-  .gig .btn {
-    display: block;
-    margin-top: 1rem;
-    text-align: center;
-  }
+  
 
   .form-wrap.reg-form,
   .form-wrap.login-form {
